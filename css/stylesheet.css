@@ -1,0 +1,39 @@
+#id_container {
+	width: 960px;
+}
+
+#top_toolbar {
+	float: right;
+}
+
+.toolbar_content {
+	padding: 10px 8px;
+	font: 13px/27px Arial,sans-serif;
+}
+
+.icons {
+	background-image: url('./img/google_toolbar_png');
+}
+
+img.square {
+	height: 30px;
+	width: 30px;
+	background: url('./img/google_toolbar.png') 0 0;
+}
+
+.reversed_text {
+	display: inline-block;
+	background-color: #0480CA;
+	color: white;
+	padding-bottom: 0;
+	padding-top: 0
+
+}
+
+span a:hover {
+	text-decoration: underline;
+}
+
+span a {
+	text-decoration: none;
+}
